@@ -1,0 +1,109 @@
+﻿
+
+
+.menulist {
+    width:100%;
+    font-size: 20px;
+    font-family: ae_AlArabiya;
+    height:60px;
+}
+
+
+.menulist a{
+    display: inline-block;
+    margin-top: 1rem;
+  
+    color:#fff;
+    padding:.8rem 3rem;
+  
+    cursor: pointer;
+    font-size: 2.2rem;
+    font-family: ae_AlArabiya;
+  
+  }
+  
+  .menulist a:hover{
+    background:rgba(255, 165, 0,.2);
+    color:var(--orange);
+  }
+
+.menulist > ul{
+    margin:0;
+    padding:0;
+    float:right;
+    list-style-type:none;
+
+}
+.menulist > ul >li {
+        
+        float: right;
+       
+    }
+
+.list-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height:30px;
+    line-height:30px;
+    color:white;
+   text-decoration:none;
+}
+
+.list-item:hover{
+   
+}
+
+/*----------------------------list drop---------------------------------*/
+.contance {
+    position: absolute;
+    overflow: hidden;
+    background-color: #14111d;
+    max-height:0;
+}
+
+ .contance a {
+        color: white;
+        text-decoration: none;
+    }
+
+.drop{
+    padding:0;
+}
+
+.drop ul {
+    width:100%;
+       padding: 0;
+       margin: 0;
+       list-style-type:none;
+    }
+    .drop ul li a {
+        display:inline-block;
+        padding: 10px 20px;
+     
+    }
+
+    .drop ul li:hover {
+        background-color: rgb(61, 56, 11);
+    }
+
+/*----------------------------التحكم في عرض القائمة---------------------------------*/
+
+
+
+.menulist ul li:hover  .contance {
+    max-height: 800px;
+    overflow:visible;
+   transition: max-height 0.1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
